@@ -1,19 +1,3 @@
-# ✨ Kreatif Software
-**[Landing](https://kreatif-software.netlify.app/)**
-Kreatif is a high-performance Landing page made with Astro and Tailwind. It's based on the original Figma design by [Olga Skuja](https://www.olgaskuja.design/).
-
-## Features
-- Clean and simple design.
-- Fully Responsive.
-- Fast and efficient thanks to Astro.
-- Customizable with Tailwind.
-- Highly optimized SEO.
-
-## ⚓ Lighthouse Score
-<p align="center">
-	<img width="600" alt="Lighthouse Score" src="https://raw.githubusercontent.com/vasquez-esteban/kreativ-software/master/lighthouse-score.svg"/>
-</p>
-
 ## 🚀 Project Structure
 ```text
 /
