@@ -7,20 +7,20 @@ const cards = [
   {
     index: 0,
     title:
-      "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
-    link: "https://google.com",
+      "Concierto Mau y Ricky - Coliseo Live: 8,500 asistentes participaron en donaciones, generando $45M COP en interacciones. 95% de satisfacción del público.",
+    link: "#",
   },
   {
     index: 1,
     title:
-      "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
-    link: "https://google.com",
+      "Festival Estéreo Picnic: Implementación exitosa en 4 escenarios simultáneos, 12,000+ donaciones activas, incremento del 40% en engagement durante presentaciones.",
+    link: "#",
   },
   {
-    index: 1,
+    index: 2,
     title:
-      "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
-    link: "https://google.com",
+      "Tour Nacional Jesse & Joy: 15 ciudades, 150,000+ fans conectados, $280M COP en donaciones totales, experiencias únicas en cada show.",
+    link: "#",
   },
 ];
 
@@ -30,8 +30,8 @@ import SectionTitle from "../ui/SectionTitle.astro";
 
 <Section id="cases">
   <SectionTitle
-    sectionTitle="Case Studies"
-    description="Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"
+    sectionTitle="Casos de Éxito"
+    description="Descubre ejemplos reales de cómo Fandi ha transformado conciertos y creado experiencias inolvidables para artistas y fans"
   />
   <div class="flex flex-col lg:flex-row justify-between rounded-[45px] p-1">
     {
@@ -41,7 +41,7 @@ import SectionTitle from "../ui/SectionTitle.astro";
             <div class="flex flex-col gap-5">
               <p>{card.title}</p>
               <a href={card.link} class="flex items-center gap-[15px]">
-                <span class="text-green">Case Info</span>
+                <span class="text-primary">Ver Detalles</span>
                 <picture>
                   <Image src={larrow} alt="Arrow pointing up right" />
                 </picture>

@@ -20,10 +20,17 @@
   }
 
   :root {
-    --green: #b9ff66;
+    --primary: #ff6b6b;
+    --secondary: #4ecdc4;
+    --accent: #45b7d1;
+    --purple: #6c5ce7;
+    --orange: #fd79a8;
+    --yellow: #fdcb6e;
     --black: rgb(0, 0, 0);
-    --dark: #191a23;
-    --white: #f3f3f3;
+    --dark: #2d3436;
+    --white: #ffffff;
+    --light-gray: #f8f9fa;
+    --gradient: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 100%);
   }
 
   @layer base {
@@ -91,36 +98,40 @@
 
   @layer components {
     .btn-primary {
-      @apply bg-dark text-white rounded-lg px-[35px] py-5 transition-all duration-200;
+      @apply bg-primary text-white rounded-lg px-[35px] py-5 transition-all duration-300 hover:shadow-lg;
     }
     .btn-primary:hover {
-      @apply bg-green text-black transform scale-105;
+      @apply bg-secondary text-white transform scale-105;
     }
 
     .btn-secondary {
-      @apply bg-transparent text-black px-[35px] py-5 rounded-lg border border-solid border-black transition-all duration-200;
+      @apply bg-transparent text-primary px-[35px] py-5 rounded-lg border border-solid border-primary transition-all duration-300;
     }
     .btn-secondary:hover {
-      @apply bg-black text-white border-green transform scale-105;
+      @apply bg-primary text-white border-primary transform scale-105;
     }
 
     .btn-tertiary {
-      @apply bg-green text-black rounded-lg px-[35px] py-5 transition-all duration-200;
+      @apply bg-accent text-white rounded-lg px-[35px] py-5 transition-all duration-300;
     }
     .btn-tertiary:hover {
-      @apply bg-white text-black transform scale-105;
+      @apply bg-purple text-white transform scale-105;
     }
 
-    .greenhead {
-      @apply bg-green text-black rounded-[7px] px-[7px];
+    .primaryhead {
+      @apply bg-primary text-white rounded-[7px] px-[7px];
     }
 
-    .whitehead {
-      @apply bg-white text-black rounded-[7px] px-[7px];
+    .secondaryhead {
+      @apply bg-secondary text-white rounded-[7px] px-[7px];
     }
 
-    .blackhead {
-      @apply bg-black text-white rounded-[7px] px-[7px];
+    .accenthead {
+      @apply bg-accent text-white rounded-[7px] px-[7px];
+    }
+
+    .purplehead {
+      @apply bg-purple text-white rounded-[7px] px-[7px];
     }
   }
 }

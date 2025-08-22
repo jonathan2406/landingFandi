@@ -1,0 +1,44 @@
+<svg width="350" height="300" viewBox="0 0 350 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="350" height="300" fill="url(#proposalGradient)" rx="25"/>
+  
+  <!-- Dispositivo móvil -->
+  <rect x="140" y="50" width="70" height="120" fill="white" opacity="0.9" rx="15"/>
+  <rect x="150" y="65" width="50" height="90" fill="url(#screenGradient)" rx="8"/>
+  
+  <!-- Pantalla del dispositivo -->
+  <circle cx="175" cy="85" r="8" fill="white"/>
+  <rect x="160" y="100" width="30" height="4" fill="white" opacity="0.8" rx="2"/>
+  <rect x="165" y="110" width="20" height="4" fill="white" opacity="0.6" rx="2"/>
+  <rect x="170" y="120" width="10" height="4" fill="white" opacity="0.4" rx="2"/>
+  
+  <!-- Botón de donación -->
+  <rect x="160" y="135" width="30" height="12" fill="#ff6b6b" rx="6"/>
+  
+  <!-- Efectos alrededor -->
+  <circle cx="80" cy="100" r="20" fill="white" opacity="0.2"/>
+  <path d="M70 100 L80 90 L90 100 L80 110 Z" fill="white" opacity="0.6"/>
+  
+  <circle cx="270" cy="120" r="25" fill="white" opacity="0.2"/>
+  <path d="M255 120 L270 105 L285 120 L270 135 Z" fill="white" opacity="0.6"/>
+  
+  <!-- Líneas de conexión -->
+  <path d="M100 100 Q175 80 250 120" stroke="white" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="3,3"/>
+  
+  <!-- Elementos de música -->
+  <circle cx="100" cy="200" r="15" fill="white" opacity="0.3"/>
+  <path d="M95 195 L95 205 M105 195 L105 205 M95 195 Q100 190 105 195" stroke="white" stroke-width="2" fill="none"/>
+  
+  <circle cx="250" cy="220" r="18" fill="white" opacity="0.3"/>
+  <path d="M240 220 L250 210 L260 220 M240 220 L250 230 L260 220" stroke="white" stroke-width="2" fill="none"/>
+  
+  <defs>
+    <linearGradient id="proposalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c5ce7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fd79a8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#45b7d1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

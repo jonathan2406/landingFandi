@@ -1,0 +1,18 @@
+<svg width="220" height="36" viewBox="0 0 220 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- Icono de música/concierto -->
+    <circle cx="18" cy="18" r="16" fill="url(#gradient)" />
+    <path d="M12 22 L16 18 L12 14 M20 14 L24 18 L20 22" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="18" cy="18" r="3" fill="white"/>
+  </g>
+  
+  <!-- Texto FANDI -->
+  <text x="45" y="25" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="black">Fandi</text>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

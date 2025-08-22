@@ -3,71 +3,71 @@ import SectionTitle from "../ui/SectionTitle.astro";
 import ServiceCard from "../ui/ServiceCard.astro";
 import Section from "./Section.astro";
 
-import c1 from "../../assets/pics/card-pic1.png";
-import c2 from "../../assets/pics/card-pic2.png";
-import c3 from "../../assets/pics/card-pic3.png";
-import c4 from "../../assets/pics/card-pic4.png";
-import c5 from "../../assets/pics/card-pic5.png";
-import c6 from "../../assets/pics/card-pic6.png";
+import c1 from "../../assets/pics/card-pic1-new.svg";
+import c2 from "../../assets/pics/card-pic2-new.svg";
+import c3 from "../../assets/pics/card-pic3-new.svg";
+import c4 from "../../assets/pics/card-pic4-new.svg";
+import c5 from "../../assets/pics/card-pic5-new.svg";
+import c6 from "../../assets/pics/card-pic6-new.svg";
 
 const cards = [
   {
     index: 1,
-    titleTop: "Search Engine",
-    titleBottom: "Optimization",
+    titleTop: "Donaciones",
+    titleBottom: "Voluntarias",
     img: c1,
-    alt: "SEO",
-    link: "https://google.com",
+    alt: "Donaciones",
+    description: "Los fans pueden donar cualquier cantidad que deseen durante el concierto. No hay montos mínimos ni máximos, permitiendo que todos participen según sus posibilidades económicas y nivel de conexión con el artista."
   },
   {
     index: 2,
-    titleTop: "Pay-per-click",
-    titleBottom: "advertising",
+    titleTop: "Interacciones",
+    titleBottom: "en Vivo",
     img: c2,
-    alt: "SEO",
-    link: "https://google.com",
+    alt: "Interacciones",
+    description: "Experiencias únicas como shout-outs personalizados, mensajes en pantalla, dedicatorias de canciones, y la posibilidad de subir al escenario. Cada interacción está diseñada para crear momentos inolvidables."
   },
   {
     index: 3,
-    titleTop: "Social Media",
-    titleBottom: "Marketing",
+    titleTop: "Experiencias",
+    titleBottom: "Especiales",
     img: c3,
-    alt: "SEO",
-    link: "https://google.com",
+    alt: "Experiencias",
+    description: "Desde meet & greets express hasta contenido exclusivo post-evento. Accede a experiencias VIP sin necesidad de comprar boletas costosas, democratizando el acceso a momentos especiales."
   },
   {
     index: 1,
-    titleTop: "Email",
-    titleBottom: "Marketing",
+    titleTop: "Categorización",
+    titleBottom: "Inteligente",
     img: c4,
-    alt: "SEO",
-    link: "https://google.com",
+    alt: "Categorización",
+    description: "Nuestro algoritmo avanzado analiza las donaciones en tiempo real y crea categorías equitativas automáticamente, asegurando oportunidades justas para todos los participantes, sin importar el monto donado."
   },
   {
     index: 2,
-    titleTop: "Content",
-    titleBottom: "Creation",
+    titleTop: "Conexión",
+    titleBottom: "Artista-Fan",
     img: c5,
-    alt: "SEO",
-    link: "https://google.com",
+    alt: "Conexión",
+    description: "Fandi facilita conexiones auténticas entre artistas y sus fans, creando momentos espontáneos y genuinos que van más allá de una simple presentación musical, fortaleciendo la relación artista-audiencia."
   },
   {
     index: 3,
-    titleTop: "Analytics and",
-    titleBottom: "Tracking",
+    titleTop: "Acceso",
+    titleBottom: "Democratizado",
     img: c6,
-    alt: "SEO",
-    link: "https://google.com",
+    alt: "Acceso",
+    description: "Eliminamos las barreras económicas para acceder a experiencias VIP. Cualquier persona, independientemente del precio de su boleta original, puede participar y tener la oportunidad de vivir momentos especiales."
   },
 ];
 
 const description =
-  "At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include";
+  "Fandi ofrece una plataforma innovadora que revoluciona la experiencia en conciertos a través de tecnología avanzada y conexiones auténticas. Nuestras características incluyen";
 ---
 
-<Section>
+<Section id="services">
   <div class="mt-[140px] mb-5">
-    <SectionTitle sectionTitle="Services" description={description} />
+    <SectionTitle sectionTitle="Características" description={description} />
     <div class="grid lg:grid-cols-2 lg:grid-rows-3 gap-10">
       {
         cards.map((card) => (
@@ -77,10 +77,12 @@ const description =
             titleBottom={card.titleBottom}
             img={card.img}
             alt={card.alt}
-            link={card.link}
+            description={card.description}
           />
         ))
       }
     </div>
   </div>
 </Section>
+
+<!-- Se removió el comportamiento de toggle: todas las descripciones están visibles -->

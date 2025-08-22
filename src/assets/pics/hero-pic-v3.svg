@@ -1,0 +1,109 @@
+<svg width="450" height="450" viewBox="0 0 450 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo principal -->
+  <rect width="450" height="450" fill="url(#heroBackground)" rx="35"/>
+  
+  <!-- Elementos de fondo geométricos -->
+  <circle cx="80" cy="80" r="40" fill="white" opacity="0.1"/>
+  <circle cx="370" cy="100" r="30" fill="white" opacity="0.1"/>
+  <rect x="320" y="40" width="60" height="60" fill="white" opacity="0.08" rx="30" transform="rotate(45 350 70)"/>
+  
+  <!-- Dispositivo móvil central -->
+  <rect x="175" y="120" width="100" height="180" fill="white" rx="25" opacity="0.95"/>
+  <rect x="185" y="140" width="80" height="140" fill="url(#phoneScreen)" rx="15"/>
+  
+  <!-- Pantalla del teléfono con interfaz de Fandi -->
+  <rect x="190" y="150" width="70" height="25" fill="white" opacity="0.9" rx="12"/>
+  <text x="225" y="167" text-anchor="middle" fill="#ff6b6b" font-size="12" font-weight="bold">FANDI</text>
+  
+  <!-- Elementos de la interfaz -->
+  <circle cx="205" cy="190" r="8" fill="#4ecdc4"/>
+  <circle cx="225" cy="190" r="8" fill="#ff6b6b"/>
+  <circle cx="245" cy="190" r="8" fill="#45b7d1"/>
+  
+  <rect x="195" y="210" width="50" height="8" fill="#f8f9fa" rx="4"/>
+  <rect x="195" y="225" width="35" height="6" fill="#f8f9fa" opacity="0.7" rx="3"/>
+  <rect x="195" y="237" width="40" height="6" fill="#f8f9fa" opacity="0.5" rx="3"/>
+  
+  <!-- Botón de donación -->
+  <rect x="200" y="250" width="40" height="15" fill="url(#buttonGradient)" rx="7"/>
+  <text x="220" y="261" text-anchor="middle" fill="white" font-size="8">Donar</text>
+  
+  <!-- Elementos flotantes alrededor del teléfono -->
+  
+  <!-- Notas musicales -->
+  <g transform="translate(120, 180)">
+    <circle cx="0" cy="0" r="20" fill="white" opacity="0.2"/>
+    <path d="M-8 -3 L-8 8 M-3 -5 L-3 6 M-8 -3 Q-5 -8 -3 -5" stroke="#6c5ce7" stroke-width="2" fill="none"/>
+  </g>
+  
+  <g transform="translate(330, 200)">
+    <circle cx="0" cy="0" r="18" fill="white" opacity="0.2"/>
+    <path d="M-6 -2 L-6 7 M-2 -4 L-2 5 M-6 -2 Q-4 -6 -2 -4" stroke="#fd79a8" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Corazones (donaciones) -->
+  <g transform="translate(100, 250)">
+    <circle cx="0" cy="0" r="22" fill="white" opacity="0.15"/>
+    <path d="M-8 -2 C-8 -6, -4 -6, -4 -2 C-4 -6, 0 -6, 0 -2 C0 4, -4 8, -4 8 C-4 8, -8 4, -8 -2" fill="#ff6b6b"/>
+  </g>
+  
+  <g transform="translate(350, 270)">
+    <circle cx="0" cy="0" r="20" fill="white" opacity="0.15"/>
+    <path d="M-6 -1 C-6 -4, -3 -4, -3 -1 C-3 -4, 0 -4, 0 -1 C0 3, -3 6, -3 6 C-3 6, -6 3, -6 -1" fill="#4ecdc4"/>
+  </g>
+  
+  <!-- Iconos de interacción -->
+  <g transform="translate(90, 320)">
+    <circle cx="0" cy="0" r="25" fill="white" opacity="0.2"/>
+    <rect x="-8" y="-6" width="16" height="10" fill="#45b7d1" rx="2"/>
+    <path d="M-4 -1 L0 2 L4 -1" stroke="white" stroke-width="1" fill="none"/>
+  </g>
+  
+  <g transform="translate(360, 320)">
+    <circle cx="0" cy="0" r="23" fill="white" opacity="0.2"/>
+    <circle cx="0" cy="-2" r="4" fill="#fdcb6e"/>
+    <rect x="-3" y="2" width="6" height="8" fill="#fdcb6e" rx="1"/>
+  </g>
+  
+  <!-- Conexiones dinámicas -->
+  <path d="M120 200 Q160 180 175 200" stroke="#6c5ce7" stroke-width="3" fill="none" opacity="0.6" stroke-dasharray="4,4"/>
+  <path d="M275 200 Q310 180 330 200" stroke="#fd79a8" stroke-width="3" fill="none" opacity="0.6" stroke-dasharray="4,4"/>
+  <path d="M100 270 Q140 250 175 270" stroke="#ff6b6b" stroke-width="3" fill="none" opacity="0.6" stroke-dasharray="4,4"/>
+  <path d="M275 270 Q310 250 350 270" stroke="#4ecdc4" stroke-width="3" fill="none" opacity="0.6" stroke-dasharray="4,4"/>
+  
+  <!-- Elementos decorativos inferiores -->
+  <circle cx="225" cy="350" r="50" fill="white" opacity="0.1"/>
+  <circle cx="225" cy="350" r="30" fill="white" opacity="0.15"/>
+  
+  <!-- Texto/logo en la parte inferior -->
+  <text x="225" y="360" text-anchor="middle" fill="white" font-size="16" font-weight="bold" opacity="0.8">Conectando</text>
+  <text x="225" y="380" text-anchor="middle" fill="white" font-size="16" font-weight="bold" opacity="0.8">Artistas y Fans</text>
+  
+  <!-- Partículas dispersas -->
+  <circle cx="50" cy="150" r="3" fill="#4ecdc4" opacity="0.7"/>
+  <circle cx="400" cy="160" r="3" fill="#ff6b6b" opacity="0.7"/>
+  <circle cx="70" cy="380" r="4" fill="#45b7d1" opacity="0.6"/>
+  <circle cx="380" cy="370" r="3" fill="#fd79a8" opacity="0.7"/>
+  <circle cx="40" cy="300" r="2" fill="#fdcb6e" opacity="0.8"/>
+  <circle cx="410" cy="280" r="3" fill="#6c5ce7" opacity="0.6"/>
+  
+  <defs>
+    <linearGradient id="heroBackground" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c5ce7;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#45b7d1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fd79a8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="phoneScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="buttonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fd79a8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
