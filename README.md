@@ -47,11 +47,4 @@ To run locally:
 | `npm install`    | Install Deps                        |
 | `npm run dev`    | Run locally in `localhost:4321` |
 
-## More information
 
-- License & Credits in the Landig Page's footer.
-
-<a href="https://atemplate.com/item/kreativ-software" target="_blank"> 
-    <img src="https://atemplate.com/badages-awards.svg" 
-        alt="kreativ-software | A template" width="180"/> 
-</a>
